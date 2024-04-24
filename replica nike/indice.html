@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novedades y Destacados - Nike</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+           <li><img src="imagenes/nike.jpg" class="img-01" alt="" ></li>
+                <li><a href="#novedades">Novedades</a></li>
+                <li><a href="#hombres">Hombre</a></li>
+                <li><a href="#mujeres">Mujer</a></li>
+                <li><a href="#ninos">Niño/a</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+            </ul>
+            
+            <center>
+                <span>
+                    Devoluciones y entregas gratuitas
+                    <br>
+                    Member, tienes envios y devoluciones gratis en un plazo de 30 dias en todos los pedidos. Obten mas informacion y unete 
+                </span>
+            </center>
+           <ul>
+            <li><img src="imagenes/membresia.jpg" class="img-02" alt="" ></li>
+            <li><img src="imagenes/membresia.jpg" class="img-02" alt="" ></li>
+            <li><img src="imagenes/membresia.jpg" class="img-02" alt="" ></li>
+        </ul>     
+        </nav>
+    </header>
+
+    <main>
+        <section id="novedades">
+            <h1>Comprar Novedades
+            <form action="/search" method="get">
+                <input type="text" name="q" placeholder="Que desea Buscar" >
+                <button type="submit">Buscar</button>
+            </h1>
+            </form>
+           </section>
+           </main>   
+       <!--Carusel solo copiado y pegado se mueve con un boton de java-->
+           <div class="container">
+            <div class="mySlides">
+                <img src="imagenes/camavinga.jpg" alt="imagen-1">
+            </div>
+            <div class="mySlides">
+                <img src="imagenes/imagen1.jpg" alt="">
+            </div>
+            <div class="mySlides">
+                <img src="imagenes/imagen2.jpg" alt="">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+            <div class="elements">
+                <span class="quadrate" onclick="currentSlide(1)"></span>
+                <span class="quadrate" onclick="currentSlide(2)"></span>
+                <span class="quadrate" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    <footer>
+        <p>Christian Jossel Aguilera Morales 20241001243</p>
+    </footer>
+</body>
+</html>

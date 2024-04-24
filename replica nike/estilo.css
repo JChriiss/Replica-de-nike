@@ -1,0 +1,57 @@
+header, nav, main, footer {
+    padding: 1px;
+}
+.img-01{
+width: 50px;
+height: 30px;
+}
+.img-02{
+    width: 501px;
+    height:49px ;
+}
+
+body
+ {
+    font-family: Arial, sans-serif;
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    text-decoration: none ;
+    color: #333;
+}
+main{
+    font-size: 20px;
+     text-align: center ; 
+}
+input{
+    width:400px ;
+    height: 20px
+}
+button{
+    width:70px ;
+    height: 25px
+}
+.promotion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d3c8c8;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
